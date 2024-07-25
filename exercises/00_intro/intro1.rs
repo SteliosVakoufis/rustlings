@@ -22,4 +22,5 @@ fn main() {
     println!("The file of this exercise is `exercises/00_intro/intro1.rs`. Have a look!");
     println!("The current exercise path will be always shown under the progress bar.");
     println!("You can click on the path to open the exercise file in your editor.");
+    println!("What is love, baby don't hurt, don't hurt me, no more");
 }
