@@ -8,9 +8,16 @@
 // - However, if Mary buys more than 40 apples, the price of each apple in the
 // entire order is reduced to only 1 rustbuck!
 
+const APPLE_QUANTITY_DISCOUNT:i32 = 40;
+const APPLE_PRICE:i32 = 2;
+const APPLE_PRICE_DISCOUNT:i32 = 1;
+
 // TODO: Write a function that calculates the price of an order of apples given
 // the quantity bought.
-// fn calculate_price_of_apples(???) -> ??? { ??? }
+fn calculate_price_of_apples(quantity:i32) -> i32 {
+    if quantity > APPLE_QUANTITY_DISCOUNT { quantity * APPLE_PRICE_DISCOUNT}
+    else {quantity * APPLE_PRICE}
+}
 
 fn main() {
     // You can optionally experiment here.
